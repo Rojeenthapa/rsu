@@ -35,14 +35,15 @@
                 <h3 class="title title-bar-primary4">
                   Feedback and Query Form
                 </h3>
-                <form class="contact-form-box" id="contact-form">
+                <form  action="{{route('contact.store')}}" method='POST' class="contact-form-box" id="contact-form">
+                  @csrf
                   <div class="row">
                     <div class="col-md-6 form-group">
                       <input
                         type="text"
                         placeholder="First Name *"
                         class="form-control"
-                        name="first_name"
+                        name="firstname"
                         data-error="First Name is required"
                         required
                       />
@@ -53,7 +54,7 @@
                         type="text"
                         placeholder="Last Name *"
                         class="form-control"
-                        name="last_name"
+                        name="lastname"
                         data-error="Last Name is required"
                         required
                       />
@@ -75,7 +76,7 @@
                         type="text"
                         placeholder="Phone *"
                         class="form-control"
-                        name="phone"
+                        name="phonenumber"
                         data-error="Phone field is required"
                         required
                       />

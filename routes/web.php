@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\controllers\Testimonial;
+use App\Http\Controllers\TestimonialController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,3 +50,14 @@ Route::get('/equipments', function () {
 Route::get('/appointments', function () {
     return view('appointments');
 });
+
+Route::get('/testimonials/create',[TestimonialController::class,'create']);
+Route::post('/testimonials/create',[TestimonialController::class,'store']);
+Route::get('testimonials', [TestimonialController::class,'index']);
+Route::get('/testimonials/edit/{id}', [TestimonialController::class,'edit'])->name('edit_testimonial');
+Route::put('testimonials/update', [TestimonialController::class,'update']);
+Route::get('/admin/testimonial/list',[TestimonialController::class,'index']);
+Route::delete('/delete_testimonial/{id}',[TestimonialController::class, 'destroy'])->name('delete_testimonial');
+Route::post('contact', [App\Http\Controllers\ContactController::class,'store'])->name('contact.store');
+
+

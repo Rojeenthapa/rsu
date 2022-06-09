@@ -73,7 +73,73 @@
                             </div>
                         </div>
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
+                        <div class="p-6 border-t border-gray-200 dark:border-gr<section class="testimonial_area_form">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="testimonial_form_wrapper">
+                <div class="testimo  <nial_form_inne mx-auto mt-2 mb-5" style="width: 800px; max-width:100%">
+                  <h3 class="section-title title-bar-primary">
+                    Add Your Say
+                  </h3>
+                  <form action="#">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Name"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Designation"
+                            required=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Email"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <textarea
+                            class="form-control"
+                            placeholder="Message"
+                            required=""
+                            rows="10"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <button
+                            type="submit"
+                            class="btn btn-primary btn-lg mx-auto d-block"
+                            >Submit</button
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>ay-700">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
                                 <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>

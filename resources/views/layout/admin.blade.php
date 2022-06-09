@@ -6,6 +6,10 @@
     <title>RSU</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+   <!-- CSS Files -->
+   <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.0.2" rel="stylesheet" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="" />
     <!-- Normalize CSS -->
@@ -62,6 +66,10 @@
   </head>
 
   <body>
+      <div class="wrapper">
+      @include('layout.inc.sidebar')    
+
+
     <!-- scrollUp Start Here -->
     <a href="#wrapper" data-type="section-switch" class="scrollUp">
       <i class="fas fa-angle-double-up"></i>
@@ -74,6 +82,15 @@
      @yield('content')
      @include('layout.footer')
     </div>
+     
+     <!--   Core JS Files   -->
+     <script src="{{assets('assets/js/core/popper.min.js')}}" defer></script>
+     <script src="{{assets('assets/js/core/bootstrap.min.js')}}" defer></script>
+     <script src="{{assets('assets/js/plugins/perfect-scrollbar.min.js')}}" defer></script>
+     <script src="{{assets('assets/js/plugins/smooth-scrollbar.min.js')}}" defer></script>
+     <script src="{{assets('assets/js/core/popper.min.js')}}" defer></script>
+     <script>
+
     <!-- jquery-->
     <script src="js/jquery-2.2.4.min.js"></script>
     <!-- jquery UI -->

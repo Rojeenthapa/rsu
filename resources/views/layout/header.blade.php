@@ -8,7 +8,7 @@
             <div class="col-lg-3 col-md-3 logo-area-layout2 d-flex">
               <a href="index.html" class="temp-logo">
                 <img
-                  src="img/tilhangalogo.png"
+                  src="/img/tilhangalogo.png"
                   alt="tilganga-logo"
                   class="img-fluid"
                 />
